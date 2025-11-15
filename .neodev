@@ -1,0 +1,6 @@
+{
+  "library": {
+    "plugins": [ "plenary.nvim" ],
+    "types": true
+  }
+}
