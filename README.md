@@ -7,6 +7,11 @@ This plugin provides a "quick look" command to instantly preview the contents or
 - Lightweight: Acts as a simple wrapper around external tools.
 - Lazy-Loaded: Loads instantly only when you run one of its commands.
 ## Dependencies
+This plugin is a wrapper around external command-line tools. You must have them installed and available on your PATH.
+- The recommended way to install this on most systems (especially modern Ubuntu) is with pipx:
+```bash 
+pipx install parquet-tools
+```
 ## Installation
 Instal using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua 
