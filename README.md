@@ -4,6 +4,7 @@ This plugin provides a "quick look" command to instantly preview the contents or
 ## Features
 - Preview Data: Shows the first 20 rows of .parquet in a beautifully formatted table.
 - Preview Stats: Shows file metadata for .parquet files (schema, row count, column stats) and .avro files (schema).
+    - New Features: schema definition in PySpark styles
 - Lightweight: Acts as a simple wrapper around external tools.
 - Lazy-Loaded: Loads instantly only when you run one of its commands.
 ## Dependencies
